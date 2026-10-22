@@ -1,0 +1,6 @@
+# dsh-agent-change — mount layer（bundle patch）。
+# 插入一行插件条目；配置（工作区默认映射、开关）为 volatile 字段，
+# 由设置页 / 本插件 UI 通过 settings 服务写回本 profile 的 patch 覆盖层。
+- insert:
+    - id: agent-change
+      name: dsh-agent-change
