@@ -10,10 +10,10 @@ dsh 桌面端的 Agent 预设（模式）切换插件。只为模式服务：
 
 | 桌面端 DeepSeek Harness | 适配状态 |
 |---|---|
-| **0.2.1-rc.2** | ✅ 开发与实测通过的版本 |
+| **0.2.1-rc.3** | ✅ 开发与实测通过的版本 |
 
-- 引擎要求：`dsh >= 0.2.0-rc.2`（`package.json` → `dsh.engines`）。
-- 插件依赖不少**内部 API**（`agents` / `sessionProjections` 的 `turnBoundary`、`agentPreset` 投影，`settings.mutate`，`ctx.sessions.list` 行投影，`conversation.input.left` 槽位等），桌面端大版本升级后若行为异常，优先核对这几处签名是否变化。
+- 引擎要求：`dsh >= 0.2.1-rc.3`（`package.json` → `dsh.engines`）。0.2.1-rc.2 及更早版本不再兼容（0.2.0 起改用 `sessionQuery.readSession` 与 Remote `{ok}` 信封语义）。
+- 插件依赖不少**内部 API**（`agents` / `sessionProjections` 的 `turnBoundary`、`agentPreset` 投影，`settings.mutate`，`ctx.sessions.list` 行投影，`sessionQuery.readSession`，`conversation.input.left` 槽位等），桌面端大版本升级后若行为异常，优先核对这几处签名是否变化。
 
 ## 生效规则
 

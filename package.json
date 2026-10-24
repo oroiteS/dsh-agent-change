@@ -1,6 +1,6 @@
 {
   "name": "dsh-agent-change",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "Per-workspace default Agent preset, preset hot-switch keyboard shortcuts, and automatic fallback to the default preset when a referenced preset is deleted. Mode management only.",
   "type": "module",
   "main": "lib/index.js",
@@ -44,11 +44,11 @@
       ]
     },
     "engines": {
-      "dsh": ">=0.2.0-rc.2"
+      "dsh": ">=0.2.1-rc.3"
     },
     "compatibility": {
       "dshReleases": {
-        "0.2.1-rc.2": "compatible"
+        "0.2.1-rc.3": "compatible"
       }
     }
   },
