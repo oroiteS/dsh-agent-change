@@ -1,6 +1,6 @@
 {
   "name": "dsh-agent-change",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Per-workspace default Agent preset, preset hot-switch keyboard shortcuts, and automatic fallback to the default preset when a referenced preset is deleted. Mode management only.",
   "type": "module",
   "main": "lib/index.js",
@@ -26,6 +26,14 @@
     "keyboard-shortcuts"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oroiteS/dsh-agent-change.git"
+  },
+  "homepage": "https://github.com/oroiteS/dsh-agent-change#readme",
+  "bugs": {
+    "url": "https://github.com/oroiteS/dsh-agent-change/issues"
+  },
   "engines": {
     "node": ">=20"
   },
